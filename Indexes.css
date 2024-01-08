@@ -1,0 +1,31 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #260e0e;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    background-color: rgba(38, 5, 5, 0.212);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b7b338;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 50px;
+}

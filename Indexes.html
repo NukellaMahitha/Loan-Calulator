@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+    background-image:url('money.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+
+
+    }
+
+    </style>
+    
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Indexes.css">
+     
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+         
+        <h2><p style="color:white;">LOAN CALCULATOR</p></h2>  
+        <form id="loan-form">
+            <div>
+                <label><p style="color:white;">Loan Amount:</p></label>
+                <input type="number" id="loan-amount" required>
+            </div>
+            <div>
+                <label><p style="color:white;">Interest Rate(%):</p></label>
+                <input type="number" id="interest-rate" required>
+            </div>
+            <div>
+                <label><p style="color:white;">Loan Term(Years):</p></label>
+                <input type="number" id="loan-term" required>
+            </div>
+
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    
+     <script src="Indexes.js"></script>
+</body>
+</html>
